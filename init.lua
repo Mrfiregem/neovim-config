@@ -1,6 +1,3 @@
--- Load packages
-require "config.lazy"
-
 -- Set default indentation
 vim.opt.expandtab = true -- Use spaces over tabs
 vim.opt.shiftwidth = 4 -- # of spaces to use per indentation level
@@ -12,6 +9,9 @@ vim.opt.relativenumber = true
 -- Make :commands tab completion case-insensitive
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
+
+-- Load packages
+require "config.lazy"
 
 -- Set theme
 vim.cmd.colorscheme "catppuccin-macchiato"

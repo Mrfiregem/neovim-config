@@ -1,7 +1,11 @@
 return {
+    -- Shells
     sh = { "shfmt" },
     bash = { "shfmt" },
-    nu = { "nufmt" },
+    -- Config-related
     toml = { "taplo" },
+    -- Programming
     lua = { "stylua" },
+    rust = { "rustfmt" },
+    nim = { "nph" },
 }

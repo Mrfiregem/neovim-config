@@ -17,7 +17,7 @@ vim.opt.smartcase = true
 vim.cmd.colorscheme "catppuccin-macchiato"
 
 -- Load LSP configs in ./lsp/*.lua
-vim.lsp.enable { "lua_ls", "bash_ls", "nu_lsp" }
+vim.lsp.enable { "lua_ls", "bash_ls", "nu_lsp", "nimlangserver" }
 
 -- Enable showing diagnostic messages on current line
 vim.diagnostic.config {

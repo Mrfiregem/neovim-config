@@ -23,3 +23,6 @@ vim.lsp.enable { "lua_ls", "bash_ls", "nu_lsp", "nimlangserver", "rust_analyzer"
 vim.diagnostic.config {
     virtual_lines = { current_line = true },
 }
+
+-- Load extra keymaps with which-key
+require "config.plugin_keymaps"

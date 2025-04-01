@@ -17,7 +17,7 @@ require "config.lazy"
 vim.cmd.colorscheme "catppuccin-macchiato"
 
 -- Load LSP configs in ./lsp/*.lua
-vim.lsp.enable { "lua_ls", "bash_ls", "nu_lsp", "nimlangserver", "rust_analyzer" }
+vim.lsp.enable { "lua_ls", "bash_ls", "nu_lsp", "nimlangserver", "rust_analyzer", "taplo" }
 
 -- Enable showing diagnostic messages on current line
 vim.diagnostic.config {

@@ -5,6 +5,7 @@ local read_tslist_file = function()
     if not f then return {} end
     local parsers = {}
     for p in f:lines() do
+        p = p:gsub("#.*", ''):gsub("%s", '')
         if p ~= "" then parsers[#parsers + 1] = p end
     end
     f:close()

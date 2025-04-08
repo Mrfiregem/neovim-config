@@ -1,7 +1,9 @@
+# shells
 bash
 fish
 nu
 
+# programming
 c
 cpp
 python
@@ -9,20 +11,27 @@ nim
 rust
 lua
 
+# vim-specific
 vim
 vimdoc
 
+# webdev
 html
 css
 javascript
 markdown
 
+# workspace-related
 editorconfig
 git_config
+gitcommit
 gitignore
 
+# config files
 json
 jsonc
 toml
 yaml
 just
+
+# vim: ft=config

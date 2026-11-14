@@ -37,6 +37,9 @@
     # Insert corresponding delimeter when typing
     autopairs.nvim-autopairs.enable = true;
 
+    # Show keybind menu helper popup
+    binds.whichKey.enable = true;
+
     # Colorscheme
     theme = {
       enable = true;

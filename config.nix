@@ -1,6 +1,12 @@
 # vim: et sw=2
 {
   vim = {
+    # Corresponding to `vim.o` options
+    options = {
+      shiftwidth = 2;
+      expandtab = true;
+    };
+
     # Enable LSP functionality
     lsp = {
       enable = true;

@@ -46,6 +46,11 @@
     # Insert corresponding delimeter when typing
     autopairs.nvim-autopairs.enable = true;
 
+    utility.surround = {
+      enable = true;
+      useVendoredKeybindings = false;
+    };
+
     # Show keybind menu helper popup
     binds.whichKey.enable = true;
 

@@ -1,6 +1,9 @@
 # vim: et sw=2
 {
   vim = {
+    # Case-insensitive unless capitalized
+    searchCase = "smart";
+
     # Corresponding to `vim.o` options
     options = {
       shiftwidth = 2;

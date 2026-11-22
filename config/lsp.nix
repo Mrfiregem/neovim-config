@@ -24,7 +24,11 @@
     css.enable = true;
     html = {
       enable = true;
-      lsp.servers = [ "superhtml" "emmet-ls" ];
+      lsp.servers = [
+        "superhtml"
+        "emmet-ls"
+      ];
+      format.type = [ "prettier" ];
     };
     svelte.enable = true;
     typescript.enable = true;

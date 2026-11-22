@@ -1,4 +1,3 @@
-# vim: et sw=2
 {
   vim = {
     # Case-insensitive unless capitalized
@@ -12,7 +11,6 @@
 
     # Insert corresponding delimeter when typing
     autopairs.nvim-autopairs.enable = true;
-
     utility.surround = {
       enable = true;
       useVendoredKeybindings = false;

@@ -1,3 +1,6 @@
 {
-  vim.languages.nix.enable = true;
+  vim.languages.nix = {
+    enable = true;
+    format.type = [ "nixfmt" ];
+  };
 }

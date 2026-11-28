@@ -17,6 +17,11 @@
         enabled = true;
         matcher.cwd_bonus = true;
       };
+
+      # Configure styles for features.
+      styles = {
+        zen.backdrop.transparent = false;
+      };
     };
   };
 
